@@ -2,7 +2,7 @@
  *  OnThisPage Webpart
  *
  * Author: Pen Warner
- * Copyright Trustmarque (c) 2020
+ * Copyright  (c) 2020
  */
 import * as React from "react";
 import styles from "./TmOnThisPage.module.scss";
