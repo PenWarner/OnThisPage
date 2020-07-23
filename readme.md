@@ -11,7 +11,7 @@ TODO:
 # Edit Panel
 ![Alt text](assets/OnThisPage-Edit.png?raw=true "OnThisPage WebPart - Edit" )
 
-# Settings
-| Properties Panel                                                                               	| Branding Panel                                                                                  	|  
+# Properties Panel
+| Settings                                                                               	| Branding                                                                                   	|  
 |------------------------------------------------------------------------------------------------	|-------------------------------------------------------------------------------------------------	|
 | ![Alt-Text](assets/OnThisPage-Properties-Display.png?raw=true "OnThisPage WebPart - Settings") 	| ![Alt-Text](assets/OnThisPage-Properties-Branding.png?raw=true "OnThisPage WebPart - Branding") 	| 
