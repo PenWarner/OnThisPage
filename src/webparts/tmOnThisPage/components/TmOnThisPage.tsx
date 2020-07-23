@@ -2,7 +2,7 @@
  *  OnThisPage Webpart
  *
  * Author: Pen Warner
- * Copyright Trustmarque (c) 2020
+ * Copyright (c) 2020
  */
 import * as React from "react";
 import styles from "./TmOnThisPage.module.scss";
@@ -81,14 +81,8 @@ export default class TmOnThisPage extends React.Component<ITmOnThisPageProps, { 
       let itemJSX: JSX.Element[] = [];
       for (let index: number = 0; index < items.length; index++) {
 
-        let headingLevel = "1";
-        let levelIcon = "";
-        if(items[index].outerHTML.startsWith('<h2')){
-          levelIcon = this.props.iconOTPItem;
-        }else{
-          headingLevel = "2";
-          levelIcon = this.props.iconOTPItem2;
-        }
+        let headingLevel = items[index].outerHTML.startsWith('<h2') ? "1" : "2";
+        let levelIcon = items[index].outerHTML.startsWith('<h2') ? this.props.iconOTPItem : this.props.iconOTPItem2;
         let headerText = items[index].innerText;
         let anchorID: string = headerText.split(' ').join('-');
         items[index].innerHTML = `<a style="text-decoration:none; color: inherit;" id="${anchorID}">${headerText}</a>`;
