@@ -1,0 +1,33 @@
+define([], function() {
+  return {
+      "PropertyPaneDescription": "Defnyddio'r panel gosodiadau i ffurfweddu'r gweran",
+      "BasicGroupName": "Gosodiadau rhan ar y we",
+      "htmlTag": "",
+      "showOTPHeading": "Dangos teitl",
+      "headingText": "Teitl",
+      "headingTextDefaultValue": "Ar y dudalen hon",
+      "showBackToTop": "Dangos yn ôl i'r brig ym mharagraff",
+      "backToTopText": "Label 'Yn ôl i'r brig'",
+      "backToTopDefaultValue": "Yn ôl i'r brig",
+      "backToTopFieldDescription": "Bydd testun yn y maes hwn yn cael ei ychwanegu at y rhan o'r we testun o dan bob paragraff.",
+      "showBackToPreviousPage": "Dangos yn ôl i'r dudalen flaenorol",
+      "backToPreviousText": "Label ' yn ôl i'r dudalen flaenorol '",
+      "backToPreviousDefaultValue": "Yn ôl i'r dudalen flaenorol",
+      "backToPreviousFieldDescription": "",
+      "pageInEditMode": "Mae'r dudalen yn y modd golygu.",
+      "iconDescription": "",
+      "iconGroup": "Eiconau",
+      "iconOTPItem": "Eicon ar gyfer eitem OTP",
+      "iconPreviousPage": "Eicon ar gyfer 'tudalen flaenorol'",
+      "pinGroup": "Pinio",
+      "copyGroup": "Copïo gosodiadau",
+      "sampleItemLabel": "Eitem enghreifftiol",
+      "errorFieldCannotBeEmpty": "Ni all y maes hwn fod yn wag. Llenwch werth!",
+      "errorToggleFieldEmpty": "All y maes hwn ddim bod yn wag, os nad ydych am ddefnyddio'r maes hwn, tynnwch ef i ffwrdd!",
+      "fixOTP": "Trwsio'r ddewislen",
+      "otpBackgroundColorDescription":"Ychwanegu lliw cefndir yn y fformat #ffffff neu'n dryloyw",
+      "otpBackgroundColor":"Lliw cefndir",
+      "otpFontcolor": "Lliw'r ffont",
+      "otpFontColorDescription": "Ychwanegu lliw cyferbyniol at y lliw cefndir"
+  }
+});

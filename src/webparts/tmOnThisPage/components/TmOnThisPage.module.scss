@@ -1,0 +1,92 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.onThisPage {
+    .container {
+        z-index: 9998!important;
+        margin-left: 18px;
+        margin-top: 0px;
+        padding-top:10px
+    }
+
+    .row {
+        @include ms-Grid-row;
+        padding: 0px;
+    }
+    .column {
+        width: 90% !important;
+    }
+    .title {
+        @include ms-font-xxl;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .subTitle {
+        @include ms-font-l;
+    }
+    .description {
+        @include ms-font-l;
+    }
+    .otpItem {
+        @include ms-font-m;
+        padding-bottom: 10px;
+        cursor: pointer;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .otpItem .otpIcon {
+        position: relative;
+        top: 2px;
+        padding-right: 10px;
+    }
+    .otpItem .otpItemText {
+        margin: 0px;
+    }
+    .otpItem a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .otpItem2 {
+      @include ms-font-m;
+      padding-bottom: 10px;
+      cursor: pointer;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-left: 10px;
+  }
+  .otpItem2 .otpIcon2 {
+      position: relative;
+      top: 2px;
+      padding-right: 10px;
+
+  }
+  .otpItem2 .otpItemText2 {
+      margin: 0px;
+  }
+  .otpItem2 a {
+      text-decoration: none;
+      color: inherit;
+
+  }
+    .otpInEditModeDescription {
+        @include ms-font-s;
+        padding-bottom: 10px;
+    }
+    .otpItemBackToPreviousPage {
+        border-top: 1px solid #f1f1f1;
+        padding-top: 10px;
+    }
+    .textItemBackToTop {
+        border-bottom: 1px solid #f1f1f1;
+        padding-bottom: 10px;
+        text-align: right;
+        font-size: small;
+    }
+    .hidden{
+        visibility: hidden;
+    }
+    .visible{
+        visibility: visible;
+    }
+}

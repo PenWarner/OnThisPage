@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tm-on-this-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tmOnThisPage/TmOnThisPageWebPart.js",
+          "manifest": "./src/webparts/tmOnThisPage/TmOnThisPageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path":"node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jquery"
+    },
+    "scrollToFixed": {
+      "path": "./src/webparts/tmOnThisPage/components/jquery-scrolltofixed.js",
+      "globalName": "jquery",
+      "globalDependencies": [ "jquery" ]
+    }
+  },
+  "localizedResources": {
+    "TmOnThisPageWebPartStrings": "lib/webparts/tmOnThisPage/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+
+  }
+}

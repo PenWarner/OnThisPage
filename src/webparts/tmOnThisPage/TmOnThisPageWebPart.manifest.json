@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "516ad97c-1a31-4525-80f5-4155600c7755",
+  "alias": "OnThisPage",
+  "componentType": "WebPart",
+
+    "version": "*",
+    "manifestVersion": 2,
+
+    "preconfiguredEntries": [{
+        "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+        "group": { "default": "Other" },
+        "title": {
+            "default": "On This Page",
+            "cy": "Ar y dudalen hon"
+        },
+        "description": {
+            "default": "Generates a table of contents on the page.",
+            "cy": "Cynhyrchu tabl cynnwys ar y dudalen."
+        },
+        "officeFabricIconFontName": "CustomList",
+        "properties": {
+            "showBackToTop": false,
+            "backToTopText": "",
+            "showOTPHeading": true,
+            "headingText": "",
+            "levelsToShow": "2",
+            "showBackToPreviousPage": true,
+            "backToPreviousText": "",
+            "iconOTPItem": "CaretSolidRight",
+            "iconOTPItem2": "CaretRight",
+            "iconPreviousPage": "ChromeBack",
+            "otpBackgroundColor": "Transparent"
+        }
+    }]
+}
