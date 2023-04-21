@@ -26,7 +26,7 @@
     "@types/webpack-env": "1.13.1",
     "combokeys": "^3.0.1",
     "jest": "^25.1.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jqueryui": "^1.11.1",
     "office-ui-fabric-react": "6.189.2",
     "react": "16.8.5",
